@@ -1,0 +1,62 @@
+body {
+  text-rendering: optimizeLegibility;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, 'PingFang SC', 'Hiragino Sans GB', STHeiti,
+    'Microsoft YaHei', 'Microsoft JhengHei', 'Source Han Sans SC', 'Noto Sans CJK SC', 'Source Han Sans CN',
+    'Noto Sans SC', 'Source Han Sans TC', 'Noto Sans CJK TC', 'WenQuanYi Micro Hei', SimSun, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// *,
+// *::before,
+// *::after {
+//   box-sizing: border-box;
+// }
+
+/* stylelint-disable-next-line */
+#root,
+body,
+html {
+  min-width: 100vw;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: roboto-medium;
+  font-style: normal;
+  // font-weight: normal;
+  src: url('~@/assets/font/roboto-medium-webfont.woff2') format('woff2'),
+    url('~@/assets/font/roboto-medium-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: roboto-regular;
+  font-style: normal;
+  // font-weight: normal;
+  src: url('~@/assets/font/roboto-regular-webfont.woff2') format('woff2'),
+    url('~@/assets/font/roboto-regular-webfont.woff') format('woff');
+}
+
+/* stylelint-disable */
+// .ant-layout {
+//   min-height: 100vh;
+// }
+/* stylelint-enable */
+
+/* stylelint-disable-next-line */
+.am-button:active {
+  color: #fff;
+}
+
+/* stylelint-disable-next-line */
+.am-button:hover {
+  color: #fff;
+}
+
+/* stylelint-disable-next-line */
+.am-button-disabled {
+  color: #fff !important;
+  background-color: #cdd4da !important;
+}
